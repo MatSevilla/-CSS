@@ -1,0 +1,84 @@
+body {
+    color: brown;
+}
+
+h1 {
+    color: red;
+    font-size: 50px;
+    font-family: serif;
+    font-style: normal;
+    font-weight: normal;
+}
+
+h2 {
+    color: orangered;
+    font-size: 40px;
+    font-family: lucida;
+    font-style: italic;
+    font-weight: bold;
+}
+
+
+h3 {
+    background-color: lightgrey;
+    width: 200px;
+    border: 10px solid yellow;
+    padding: 30px;
+    margin: 10px;
+    content: url(https://i.pinimg.com/originals/66/6a/f3/666af3d8aa0d3896b00df4815441bd86.gif);
+}
+
+.color {
+    background-color: blue;
+    margin: 10px;
+    padding: 30px;
+    color: white;
+}
+
+.image {
+    background-image: url(https://i.pinimg.com/736x/b8/8e/9f/b88e9f9ff63be352582b31f40911dae2.jpg);
+    margin: 20px;
+    padding: 35px;
+    color: white;
+}
+
+h6 {
+    position: relative;
+    margin: 10px;
+    padding: 35px;
+    border: 3px solid black;
+}
+
+.inline-block {
+    display:inline-table;
+    background-color:palegreen;
+    margin: 15px;
+    padding: 12px;
+}
+
+.inline-block {
+    background-color:lightgrey;
+    width: 100px;
+    margin: 10px;
+    padding: 30px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 35px;
+}
+
+.flex-container {
+    display: flex;
+    background-color: orange;
+    margin: 10px;
+    padding: 10px;
+}
+
+.flex-container>div {
+    background-color: black;
+    width: 100px;
+    margin: 10px;
+    padding: 30px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 35px;
+}
